@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+
+    font-family: bebas;
+    src: url(fontes/bebas.ttf);
+}
+
+
+
+:root {
+    --cor0: white;
+    --cor1: #8FBD8F;
+    --cor2: #748A74;
+    --cor3: #375737;
+    --cor4: #163316;
+    --cor5: #0C330C;
+}
+
+* {
+    margin: auto;
+    padding: auto;
+}
+/*/ útil para padronizar todo esquelto do site*/
+
+header h1 {
+    font-family: bebas;
+    color: white;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.486);
+    background-image: none;
+}
+
+header p{
+    color: white;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.486);
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient( to bottom, var(--cor1), var(--cor5));
+    min-height: 150px;
+    padding-top: 40px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.175) ;
+}
+
+header p {
+    padding: 25px;
+}
+
+nav {
+    text-align: left;
+    padding: 5px;
+    background-color: var(--cor5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.200);
+}
+
+nav > a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+    
+}
+
+
+nav a:hover{
+    background-color: var(--cor1) ;
+    color: var(--cor5) ;
+    
+}
+
+h1, h2 {
+    font-family: idroid;
+    color: var(--cor5);
+    background-image: linear-gradient( 140deg, var(--cor1), rgba(255, 255, 255, 0.219));
+    padding: 7px;
+}
+
+h1{
+    background-image: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--cor1);
+}
+
+main a{
+    color: var(--cor3);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.176) ;
+}
+
+main p  {
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 30px;
+    text-indent: 30px;
+}
+
+
+main img {
+    width: 100%;
+    display: block;
+}
+
+main img.pequeno {
+    max-width: 300px;
+    display: block;
+}
+
+aside h3 {
+    color: white;
+    background-color: var(--cor3);
+    padding: 10px;
+    margin: -5px;
+    border-radius: 10px 10px 0 0;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px 15px 20px 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.185);
+}
+
+aside p {
+    text-indent: 0;
+}
+
+aside ul {
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+    /*não é compatível com todo navegador*/
+}
+
+div.video {
+background-color: var(--cor3);
+border-radius: 0px ;
+box-shadow: 0 0 0;
+padding: 10px 20px 10px 20px;
+margin: 0 -20px 0 -20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+picture{
+    display: block;
+}
+
+footer {
+    background-color: var(--cor4) ;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
