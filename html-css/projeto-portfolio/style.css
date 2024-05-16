@@ -16,43 +16,56 @@
 }
 
 header{
-background-image: linear-gradient(to bottom, var(--cor2), var(--cor3) );
-height: 150px;
-padding: 50px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3) );
+    height: 500px;
+    padding: 120px 70px 20px 70px;
+    margin: 0 0 10px 0;
 }
 
-header >div>h1{
+img{
+display: inline;
+width: 100px;
+}
+
+
+
+h1.frontend{
+    display: inline;
     font-family: 'Montserrat';
     font-weight: 900;
     color: var(--cor1);
-    font-size: 60px;
-    margin: 10px;
+    font-size: 130px;
+    
 }
 
-img.eu {
-    border-radius: 30px;
-    width: 100px;
-    justify-content: left;
-    margin: 5px;
+h1.developer{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: var(--cor1);
+    font-size: 190px;
+    margin-top: -70px;
 }
 
-
-div{
-    display: flex;
-}
-
-header >p.esquerda {
+p.esquerda {
+    font-weight: 500;
+    margin-bottom: -20px;
     display: flex;
     justify-content: left;
+    
 }
 
-header >p.direita {
+p.direita {
+    font-weight: 500;
+    margin-top: -20px;
     display: flex;
     justify-content: right;
 }
 
+main{
+    margin: 10px;
+}
 
 body{
     font-family: 'Montserrat';
-    font-weight: 400;
 }
+
