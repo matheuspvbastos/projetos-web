@@ -16,25 +16,23 @@
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3) );
-    height: 500px;
-    padding: 120px 70px 20px 70px;
-    margin: 0 0 10px 0;
+    background-image: linear-gradient( to bottom, var(--cor2), var(--cor3));
+    min-height: 615px;
+    width: 100;
 }
 
-img{
-display: inline;
-width: 100px;
+div{
+    position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
 }
-
-
-
 h1.frontend{
-    display: inline;
     font-family: 'Montserrat';
     font-weight: 900;
     color: var(--cor1);
-    font-size: 130px;
+    font-size: 35px;
     
 }
 
@@ -42,23 +40,23 @@ h1.developer{
     font-family: 'Montserrat';
     font-weight: 900;
     color: var(--cor1);
-    font-size: 190px;
-    margin-top: -70px;
+    font-size: 70px;
+    margin-top: -20px;
+    
 }
 
 p.esquerda {
-    font-weight: 500;
-    margin-bottom: -20px;
-    display: flex;
-    justify-content: left;
+    font-weight: 700;
+    color: var(--cor4);
+    font-variant: small-caps;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.116);
     
 }
 
 p.direita {
-    font-weight: 500;
-    margin-top: -20px;
-    display: flex;
-    justify-content: right;
+    font-variant: small-caps;
+    font-weight: 700;
+    color: var(--cor4);
 }
 
 main{
@@ -67,5 +65,13 @@ main{
 
 body{
     font-family: 'Montserrat';
+}
+
+footer {
+    background-color: var(--cor4) ;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
 }
 
