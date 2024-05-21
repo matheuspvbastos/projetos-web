@@ -9,17 +9,27 @@
     
     <h1>Meu Primeiro Formulário</h1>
 
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome">
+            <input type="text" name="nome" id="inome" autocomplete="">
         </p>
 
         <p><label for="isobrenome">Sobrenome:</label>
             <input type="text" name="sobrenome" id="isobrenome">
         </p>
+
+        <p><label for="iusuario">Usuário:</label>
+            <input type="text" name="usuario" id="iusuario" required maxlength="15" size="15" placeholder="Usuário">
+        </p>
         
-        <p><input type="submit" value="Enviar"></p>
+        <p> <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" size="8" required minlength="8" maxlength="15" placeholder="Senha">
+        </p>
+
+        <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 
 </body>
