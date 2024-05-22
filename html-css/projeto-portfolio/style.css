@@ -15,33 +15,37 @@
     padding: auto;
 }
 
-header{
+header {
+    text-align: center;
     background-image: linear-gradient( to bottom, var(--cor2), var(--cor3));
-    min-height: 615px;
-    width: 100;
+    min-height: 150px;
+    padding-top: 40px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.175) ;
 }
 
-div{
-    position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+div.container{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    
 
+    border-radius: 10px;
+    padding: 8px;
 }
+
 h1.frontend{
     font-family: 'Montserrat';
     font-weight: 900;
     color: var(--cor1);
-    font-size: 35px;
-    
+   
 }
 
 h1.developer{
     font-family: 'Montserrat';
     font-weight: 900;
     color: var(--cor1);
-    font-size: 70px;
-    margin-top: -20px;
+    font-size: 50px;
+    margin-top: -15px;
     
 }
 
@@ -55,16 +59,26 @@ p.esquerda {
 
 p.direita {
     font-variant: small-caps;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--cor4);
 }
 
 main{
-    margin: 10px;
+    background-color: #F8F7FF;
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.176) ;
 }
 
 body{
     font-family: 'Montserrat';
+    background-image: url(img/background-white.jpg);
+    background-size: contain;
+    min-height: 100vh;
 }
 
 footer {
