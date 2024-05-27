@@ -28,6 +28,14 @@
     input{
         border: 1px solid black;
     }
+
+    input.cor{
+        border-radius: 5px;
+    }
+
+    input.foto{
+        border: 0px;
+    }
 </style>
 
 <body>
@@ -38,6 +46,11 @@
             
             <fieldset>
                 <legend>Dados Pessoais</legend>
+
+                <p>
+                    <label for="ifoto">Foto de Perfil:</label>
+                    <input class="foto" type="file" name="foto" id="ifoto">
+                </p>
                 <p>
                     <label for="inome">Nome:</label>
                     <input type="text" name="nome" id="inome" autocomplete="">
@@ -57,6 +70,10 @@
                 <p>
                     <label for="idatanasc">Data de Nascimento:</label>
                     <input type="date" id="idatanasc">
+                </p>
+                <p>
+                    <label for="icor">Cor Preferida:</label>
+                    <input class="cor" type="color" name="cor" id="icor" value="#ffffff">
                 </p>
                 <p> 
                     <fieldset>
@@ -80,6 +97,10 @@
                     <p>
                         <label for="imedia">Média:</label>
                         <input type="number" nome="idade" id="imedia" required min="0" max="10" step="0.5" placeholder="0 a 10">
+                    </p>
+                    <p>
+                        <label for="inivel">Nível de Dificuldade:</label>
+                        <input type="range" name="nivel" id="inivel" value="0" min="0" max="10">
                     </p>
             </fieldset>
 
@@ -117,6 +138,43 @@
                     <input type="reset" value="Limpar">
                 </p>
         </form>
+
+    <h1>Onde cê Mora?</h1>
+        
+        <form action="">
+
+            <label for="iestado">Estados:</label>
+            <select name="estado" id="iestado">
+                <option value="iestado">Escolha seu Estado</option>
+                <optgroup label="Sudeste"> 
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+            </select>
+
+            <p>
+                <label for="iprofissao">Profissão:</label>
+                <input type="text" name="profissao" id="iprofissao" list="listprofissao">
+                <datalist id="listprofissao">
+                    <option>Frontend</option>
+                    <option>Backend</option>
+                    <option>Designer</option>
+                </datalist>
+            </p>
+
+            <p>
+                <label for="imensagem">Desabafa aqui:</label><br>
+                <textarea rows="10" cols="20" name="mensagem" id="imensagem"></textarea>
+            </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 
           
 </body>
