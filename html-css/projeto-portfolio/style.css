@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor1: #F8F7FF;
+    --cor1: #ececec;
     --cor2: #B8B8FF;
     --cor3: #9381FF;
     --cor4: #232239;
@@ -51,10 +51,10 @@ section.home{
     background-image: url(img/background-white.jpg);
     background-size: cover;
     background-position: center;
-    padding: 100px;  
     text-align: center;
     font-size: 30px;
-    height: 100vh;
+    padding-top: 35vh;
+    padding-bottom: 35vh;
 }
 
 .ola{
@@ -78,7 +78,7 @@ h1.titulo{
     margin-bottom: 15px;
 }
 
-span.frontend{
+span.red{
     color: var(--cor6);
 }
 p.descricao{
@@ -87,7 +87,45 @@ p.descricao{
     font-size: 25px;
 }
 
-/*HOME*/
+/*SOBRE*/
+
+img{
+    max-width: 300px;
+    border-radius: 250px;
+    margin-bottom: 40px;
+    
+}
+
+section.sobre{
+    background-color: var(--cor1); 
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 5vh;
+    padding-bottom: 35vh;
+   
+}
+div.lista{
+    width: 80vh;
+}
+section > h2{
+    margin-top: 20px;
+    padding: 10px;
+    color: var(--cor4);
+}
+
+section >h4{
+    color: var(--cor4);
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul>li{
+    font-size: 17px;
+    text-align: center;
+    unicode-bidi: embed;
+}
 
 body{
     font-family: 'Montserrat';
