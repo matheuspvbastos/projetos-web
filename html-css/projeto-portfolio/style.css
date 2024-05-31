@@ -105,21 +105,12 @@ section.sobre{
     padding-bottom: 35vh;
    
 }
-div.lista{
-    width: 80vh;
-}
-section > h2{
-    margin-top: 20px;
-    padding: 10px;
+
+h2, h4{
     color: var(--cor4);
 }
 
-section >h4{
-    color: var(--cor4);
-    display: block;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
+
 
 ul>li{
     font-size: 17px;
