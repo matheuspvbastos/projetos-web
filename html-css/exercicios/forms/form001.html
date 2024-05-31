@@ -139,7 +139,7 @@
                 </p>
         </form>
 
-    <h1>Onde cê Mora?</h1>
+    <h1>Onde você mora e trabalha? </h1>
         
         <form action="">
 
@@ -176,6 +176,67 @@
         </p>
     </form>
 
+    <form action="cadastro.php">
+
+        <h1>Vamo somar!</h1>
+
+        <p>
+            <label for="inumero1">Número 1:</label>
+            <input type="number" name="numero1" id="inumero1" min="0" max="100" required oninput="isoma.innerHTML =Number(inumero1.value) + Number(inumero2.value)">
+        </p>
+
+        <p>
+            <label for="inumero2">Número 2:</label>
+            <input type="number" name="numero2" id="inumero2" min="0" max="100" required oninput="isoma.innerHTML =Number(inumero1.value) + Number(inumero2.value)">
+        </p>
+        
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma" >0</output> 
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+        
+    </form>
+
+    <form action="">
+
+        <h1>Avalie o formulário</h1>
+
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="range" name="nota" id="inota" min="0" max="10" value="5" oninput="ival.innerHTML =Number(inota.value)" >
+            <output id="ival">5</output>
+        </p>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <form action="">
+
+        <h1>Quando você nasceu?</h1>
+
+        <p>
+            <label for="iano">Ano:</label>
+            <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="iidade">Sua idade é</label>
+            <output name="idade" id="iidade" >0</output>
+        </p>
+
+        <script>
+           function calcIdade() {
+                let atual = new Date().getFullYear()
+                iidade.innerHTML = Number(atual) - Number(iano.value)
+            }
+        </script>
+
+
+    </form>
           
 </body>
 </html>
