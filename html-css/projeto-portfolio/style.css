@@ -112,10 +112,9 @@ h2, h4{
 
 
 
-ul>li{
-    font-size: 17px;
+li{
+    font-size: 18px;
     text-align: center;
-    unicode-bidi: embed;
 }
 
 body{
