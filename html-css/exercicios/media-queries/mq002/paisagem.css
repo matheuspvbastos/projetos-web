@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*Formato (landscape)*/
+
+body{
+    background-image: url(img/cev-landscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
