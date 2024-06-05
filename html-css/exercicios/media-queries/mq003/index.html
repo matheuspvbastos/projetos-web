@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <style>
+      /*Formato all*/
+
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        background-color: blue;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      h1 {
+        color: white;
+        text-shadow: 1px 1px rgb(29, 29, 141);
+      }
+
+      /*Formato (portrait)*/
+      @media screen and (orientation: portrait) {
+        body {
+          background-image: url(img/cev-portrait.jpg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center bottom;
+        }
+      }
+      /*Formato (landscape)*/
+      @media screen and (orientation: landscape) {
+        body {
+          background-image: url(img/cev-landscape.jpg);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: left bottom;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mude a Orientação aaado seu Dispositivo</h1>
+  </body>
+</html>
