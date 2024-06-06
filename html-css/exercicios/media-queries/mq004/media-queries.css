@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Media Separada */
+
+@media screen and (min-width: 800px ) {
+    #phone{ display: none;}
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+
+    body{
+        background: url(img/back-tablet.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1000px ) {
+    #phone{ display: none;}
+    #tablet{display: none;}
+    #pc{
+        display: block;
+        margin: auto;
+    }
+
+    body{
+        background: url(img/back-tv.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
