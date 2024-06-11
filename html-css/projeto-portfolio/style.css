@@ -16,6 +16,7 @@
     padding: auto;
 }
 
+
 header {
     background-color: var(--cor4);
 }
@@ -92,8 +93,12 @@ img{
     max-width: 300px;
     border-radius: 250px;
     margin-bottom: 40px;
-    
 }
+
+#perfil {
+    display: none;
+}
+
 
 section.sobre{
     background-color: var(--cor1); 
@@ -111,7 +116,7 @@ h2, h4{
 
 li{
     font-size: 16px;
-    text-align: center;
+    
 }
 
 div.social > a{
@@ -141,4 +146,5 @@ footer {
     letter-spacing: 1px;
     margin: 0px;
 }
+
 
