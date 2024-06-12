@@ -16,9 +16,11 @@
     padding: 0px;
 }
 
-
 header {
     background-color: var(--cor4);
+    padding: 1vh;
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -32,6 +34,7 @@ nav {
 nav > a {
     font-weight: bold;
     text-decoration: none;
+    font-size: 1.1em;
     color: var(--cor1);
     padding: 10px;
     margin: 2px;
@@ -53,7 +56,7 @@ section.home{
     background-position: center;
     
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 35vh;
     padding-bottom: 35vh;
 }
@@ -71,7 +74,7 @@ p.eusou{
     margin-bottom: 15px;
 }
 
-h1.titulo{
+h1.nome{
     font-family: 'Montserrat';
     font-weight: 900;
     color: var(--cor4);
@@ -84,7 +87,7 @@ span.red{
 p.descricao{
     font-weight: 600;
     color: var(--cor4);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 /*SOBRE*/
@@ -116,6 +119,7 @@ section.sobre{
 
 h2, h4{
     color: var(--cor4);
+    margin-bottom: 1em;
 }
 
 li{

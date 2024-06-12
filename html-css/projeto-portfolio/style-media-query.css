@@ -5,12 +5,13 @@
     /*HOME*/
     section.home{
         text-align: left;
-        padding: 10px;
-        padding-top: 35vh;
+        padding-left: 30px;
+        padding-top: 30vh;
         padding-bottom: 35vh;
-        font-size: 50px;
+        font-size: 60px;
     }
-    /*SOBRE*/
+    
+    /*SOBRE (Colocando a imagem do lado do texto)*/
     #sobre{
         display: flex;
         flex-direction: row;   
@@ -18,6 +19,18 @@
         align-items: center;
     }
     
+    /* Grid
+    #sobre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    }
+
+    Ou utilizar o float 
+
+    */
+
     .sobre-foto{
         display: block;
     }
@@ -25,25 +38,16 @@
     .sobre-foto img{
         max-width: 350px;
         height: 350px;
-        padding: 10px;
+        padding: 50px;
+        
     }
-
  
     .sobre-texto{
         display: block;
         text-align: left;
-        padding: 40px;
     }   
     
-    /* Dessa forma também funciona. Preciso aprender como funciona as GRIDS
-    #sobre{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 1.5rem;
-    }
-    */
-
+  
   
 
 }
