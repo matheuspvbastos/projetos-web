@@ -31,6 +31,10 @@ span#burguer {
     display: block;
 }
 
+#burguer:hover{
+    color: var(--cor6);
+}
+
 
 menu{
     display: none;
