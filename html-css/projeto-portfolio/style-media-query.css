@@ -1,7 +1,23 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 800px) {
-    
+    /*HEADER*/
+
+    header > span#burguer {
+        display: none;
+    }
+
+    header > menu > ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        list-style-type: none;
+    }
+
+    menu{
+        display: block;
+    }
+
     /*HOME*/
     section.home{
         text-align: left;

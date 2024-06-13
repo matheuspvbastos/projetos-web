@@ -23,15 +23,31 @@ header {
     width: 100%;
 }
 
-
-nav {
-    background-color: var(--cor4);
-    display: flex;
-    justify-content: center;
-
+span#burguer {
+    color: var(--cor1);
+    text-align: center;
+    cursor: pointer;
+    font-size: 2em;
+    display: block;
 }
 
-nav > a {
+
+menu{
+    display: none;
+    text-align: center;
+    padding: 10px
+  
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+menu li{
+    padding: 10px;
+}
+
+menu > ul > li > a {
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1em;
@@ -40,7 +56,7 @@ nav > a {
     margin: 2px;
 }
 
-nav a:hover{
+menu a:hover{
     background-color: var(--cor6);
     color: var(--cor4);
     border-radius: 10px;
@@ -56,7 +72,7 @@ section.home{
     background-position: center;
     
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     padding-top: 35vh;
     padding-bottom: 35vh;
 }
