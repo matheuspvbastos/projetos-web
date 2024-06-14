@@ -26,6 +26,10 @@
         padding-bottom: 35vh;
         font-size: 60px;
     }
+
+    p.descricao{
+        font-size: 40px;
+    }
     
     /*SOBRE (Colocando a imagem do lado do texto)*/
     #sobre{

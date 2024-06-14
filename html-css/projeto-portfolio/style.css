@@ -39,7 +39,7 @@ span#burguer {
 menu{
     display: none;
     text-align: center;
-    padding: 10px
+    padding: 10px;
   
 }
 
@@ -107,7 +107,7 @@ span.red{
 p.descricao{
     font-weight: 600;
     color: var(--cor4);
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /*SOBRE*/
@@ -167,7 +167,7 @@ footer {
     color: var(--cor1);
     text-align: center;
     font-size: 0.8em;
-    padding: 10px;
+    padding: 1vh;
     letter-spacing: 1px;
     margin: 0px;
 }
