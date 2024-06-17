@@ -5,6 +5,7 @@
 
 *{
     font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
 }
 
 #telalogin{
@@ -30,14 +31,14 @@ h1{
 }
 
 .imglogin{
-    width: 255px;
+    width: 260px;
 
 }
 
 #imglogin {
     background-color: white;
     text-align: center;
-    min-width: 400px;
+    min-width: 380px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -58,7 +59,7 @@ h1{
 }
 
 div.lembrar > a{
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
 
