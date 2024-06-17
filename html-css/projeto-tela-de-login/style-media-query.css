@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) {
+
+    #telalogin{
+        width: 96vw;
+        height: 96vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    div#login{
+        text-align: center;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        width: 350px;
+        padding: 15px;
+        background-color: white;
+    }
+    
+    
+    #imglogin {
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .imglogin{
+        width: 372px;
+    }
+
+    body{
+        background-image: url(img/background-blue.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: 0px;
+    }
+
+}
