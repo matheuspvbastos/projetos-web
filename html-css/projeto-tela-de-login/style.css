@@ -16,8 +16,9 @@
     width: 96vw;
     height: 96vh;
 
+    /*sempre no final*/
     transition: width .4s, height .4s;
-    transition-timing-function: ease;
+    transition-timing-function: ease; 
 }
 
 div#login{
@@ -62,7 +63,7 @@ h1{
 }
 
 div.lembrar > a{
-    margin-left: 45px;
+    margin-left: 25px;
 }
 
 

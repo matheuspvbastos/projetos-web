@@ -18,7 +18,7 @@
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
         width: 350px;
-        padding: 15px;
+        padding: 10px;
         background-color: white;
     }
     
@@ -32,10 +32,16 @@
     }
 
     .imglogin{
-        width: 386px;
+        width: 354px;
     }
 
+    div.lembrar > a{
+        margin-left: 5px;
+    }
+    
+
     body{
+        height: 100vh;
         background-image: url(img/background-blue.jpg);
         background-size: cover;
         background-position: center;
