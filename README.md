@@ -1,4 +1,4 @@
-# estudos
-Aprendendo HTML5 e CSS3 pelo Curso em Vídeo
+# Aprendendo HTML5 e CSS3 pelo Curso em Vídeo
+## Professor: Gustavo Guanabara
 
-Agora usando o GitHub Desktop
+Utilizando: GitHub Desktop e VScode
