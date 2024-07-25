@@ -148,12 +148,14 @@ li{
 }
 
 div.social > a{
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 
-div.social img:hover{
-   border: 2px solid var(--cor4);
+div.social {
+    display: flex;
+    justify-content: center;
 }
 
 
