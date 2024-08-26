@@ -20,8 +20,8 @@ while(chute != numeroSecreto) {
 
     //SE chute for igual ao número secreto
     if (chute == numeroSecreto) {
-        alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas` );
-        //a variavel junto com a string deverá ser colocada entre crases
+
+        break;// para o while, desativa o looping
 
     }//SENÃO irá perguntar de novo dizendo se é maior ou menor
     else {                      
@@ -35,3 +35,18 @@ while(chute != numeroSecreto) {
     //tentativas = tentativas + 1; FUNCIONA IGUAL
     tentativas ++; 
 }
+
+//Operador Ternário
+                 //SE FOR VERDADEIRO   //FAZ ISSO  //SENÃO(:) FAZ ISSO
+let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
+    alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
+
+//Maneira de encutar o if e else
+//    if (tentativas > 1) {
+//        alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com $//{tentativas} tentativas` );
+//    }
+//    //a variavel junto com a string deverá ser colocada entre crases
+//    else{
+//        alert(`Isso aí! Você descobriu o número secreto ${numeroSecreto} com $//{tentativas} tentativa` );
+//
+//    }
