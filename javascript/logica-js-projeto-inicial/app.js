@@ -2,7 +2,7 @@
 alert('Boas-vindas ao jogo do número secreto');
 
 //declaração de variavél
-let numeroSecreto = 5;
+let numeroSecreto = parseInt(Math.random() * 100 + 1);
 
 //imprimir a declaração numeroSecreto que no caso é o 5
 console.log(numeroSecreto);
@@ -16,7 +16,7 @@ let tentativas = 1;
 //enquanto chute não for igual ao numeroSecreto
 while(chute != numeroSecreto) {
     //para pessoa escrever ou responder o que estiver dentro do prompt
-    chute = prompt('Escolha um número entre 1 e 10');
+    chute = prompt('Escolha um número entre 1 e 100');
 
     //SE chute for igual ao número secreto
     if (chute == numeroSecreto) {
