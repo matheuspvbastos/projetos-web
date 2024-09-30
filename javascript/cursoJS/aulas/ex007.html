@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+
+    <input type="number" name="txtn1" id="txtn1" > + 
+    <input type="number" name="txtn2" id="txtn2" >
+    <input type="button" value="somar" onclick="somar()">
+    <div id="res" >Resultado</div>
+
+    <script>
+        function somar(){
+            var tn1 = document.querySelector('input#txtn1') // primeiro valor 
+            var tn2 = document.querySelector('input#txtn2') // segundo valor
+            var res = document.querySelector('div#res') // resultado
+            var n1 = Number (tn1.value) // transformar a variavel em número, pois quando ela vai pro input, ela vira um texto
+            var n2 = Number (tn2.value)
+            var s = n1 + n2 // somatorio dos valores
+            res.innerHTML = s //mostrar no html
+        }
+
+
+
+    </script>
+
+</body>
+</html>
