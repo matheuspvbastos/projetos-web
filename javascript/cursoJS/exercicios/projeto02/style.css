@@ -11,7 +11,7 @@ header{
 section {
     margin: auto;
     color: black;
-    width: 500px;
+    width: 400px;
     margin: auto;
     padding: 10px;
     background-color: white;
@@ -21,7 +21,7 @@ section {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+   
 
 }
 
@@ -30,7 +30,7 @@ img{
     width: 200px;
     height: 200px;
     background-position: cover;
-    
+    color: #c28325;
 }
 
 footer{
