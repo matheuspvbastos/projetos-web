@@ -50,7 +50,7 @@ function verificar() {
                 img.setAttribute('src', 'img/adulto-mulher.png')
             } else {
                 //IDOSO
-                img.setAttribute('src', 'img/idoso-mulher.png')
+                img.setAttribute('src', 'img/idosa-mulher.png')
             }
         }
         
