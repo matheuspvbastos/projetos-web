@@ -8,6 +8,7 @@ function calcule(){
    } else { // se não, limpa o resultado da tabela  e faz o calculo
     tab.innerHTML = ""
     for (var i = 1; i <= 10; i++) { // valor inicial 1 até o número o 10 acrescentando de 1 em 1.
+        
         var item = document.createElement('option') //cria um elemento dinâmino no HTML, que é o filho de select e guarda numa variavel chamada item
 
         item.text = `${n} x ${i} = ${n * i}` //faz o calculo onde irá imprimir dentro do option
