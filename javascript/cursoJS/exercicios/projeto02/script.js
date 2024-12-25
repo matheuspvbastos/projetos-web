@@ -55,7 +55,7 @@ function verificar() {
         }
         
         res.innerHTML = `Voce é ${genero} com ${idade} anos.` // mostra o resultado do seu genero e sua idade
-
         res.appendChild(img) // puxa a imagem criada dinamicamente
+        
     }
 }

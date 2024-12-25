@@ -3,9 +3,16 @@ function carregar() {
     var img = document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-    
+    var min = data.getMinutes()
+    var seg = data.getSeconds()
+    var dia = data.getDate() 
+    var mes = data.getMonth() + 1
+    var ano = data.getFullYear()   
 
-    msg.innerHTML = `Agora são ${hora} horas.`
+    
+    msg.innerHTML = 
+    `<h1> Hoje é ${dia}/${mes}/${ano} <h1>
+    <h3> Agora são ${hora} horas e ${min} minutos e ${seg} segundos <h3>`
 
     if (hora >= 0 && hora <= 12) {
         //console.log('Bom dia!')
@@ -26,3 +33,7 @@ function carregar() {
 
     } 
 }
+
+carregar(); 
+setInterval(carregar, 1000); 
+

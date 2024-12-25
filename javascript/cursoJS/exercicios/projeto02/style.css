@@ -25,12 +25,18 @@ section {
 
 }
 
+#res {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 img{
     border-radius: 50%;
     width: 150px;
     height: 150px;
     background-position: cover;
-    color: #c28325;
 }
 
 footer{
