@@ -34,3 +34,11 @@ function exibirMult(n){
 }
 let mult = exibirMult('10')
 console.log(mult)
+
+//exercicio feito no console 
+let listaGenerica = []
+let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python']
+linguagensDeProgramacao.push('Java', 'Ruby', 'GoLang')
+//exiba no console apenas o primeiro elemento.
+//exiba no console apenas o segundo elemento.
+//exiba no console apenas o último elemento.
