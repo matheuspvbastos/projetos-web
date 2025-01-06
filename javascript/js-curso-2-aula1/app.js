@@ -11,10 +11,11 @@ let tentativas = 1;
 function exibirNaTela(tag, texto) {
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
+  responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2}) // biblioteca para acessibilidade para ler o que está escrito na tela
 }
 
 function mensagemInicial(){
-   exibirNaTela("h1", "Jogo do Nº Secreto"); //chama a função
+   exibirNaTela("h1", "Jogo do Número Secreto"); //chama a função
    exibirNaTela("p", "Escolha um número entre 1 e 10:");
 }
 
