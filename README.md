@@ -11,7 +11,7 @@
     </div>
 </div>
 
-## 📋 <a name="table">Sumary</a>
+## 📋 <a name="table">Sumário</a>
 
 1. 🚀 [Projetos](#projetos)
 2. ⚙️ [Tecnologias](#tecnologias)
