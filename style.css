@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.badges img {
+    margin: 0 5px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #555;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.author {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.author td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.author a {
+    color: #007BFF;
+}
