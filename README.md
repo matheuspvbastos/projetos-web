@@ -19,14 +19,14 @@
 
 ## <a name="projetos">🚀 Projetos</a>
 
-- [Artigo sobre Curiosidades do Android aperfeiçoando as CSS](https://matheuspvbastos.github.io/estudos/html-css/projeto-android/android.html)
-- [Cordel Moderno usando o efeito Parallax](https://matheuspvbastos.github.io/estudos/html-css/projeto-cordel/)
-- [Tela de Login com responsividade utilizando Media Query](https://matheuspvbastos.github.io/estudos/html-css/projeto-tela-de-login/)
-- [Relógio Digital](https://matheuspvbastos.github.io/estudos/javascript/cursoJS/exercicios/projeto01/)
-- [Verificador de Idade](https://matheuspvbastos.github.io/estudos/javascript/cursoJS/exercicios/projeto02/)
-- [Gerador de Tabuada](https://matheuspvbastos.github.io/estudos/javascript/cursoJS/exercicios/projeto04/)
-- [Analizador de Números utilizando Arrays](https://matheuspvbastos.github.io/estudos/javascript/cursoJS/exercicios/projeto05/)
-- [Jogo do Número Secreto](https://matheuspvbastos.github.io/estudos/javascript/js-curso-2-aula1)
+- [Artigo sobre Curiosidades do Android aperfeiçoando as CSS](https://matheuspvbastos.github.io/projetos-web/html-css/projeto-android/android.html)
+- [Cordel Moderno usando o efeito Parallax](https://matheuspvbastos.github.io/projetos-web/html-css/projeto-cordel/)
+- [Tela de Login com responsividade utilizando Media Query](https://matheuspvbastos.github.io/projetos-web/html-css/projeto-tela-de-login/)
+- [Relógio Digital](https://matheuspvbastos.github.io/projetos-web/javascript/cursoJS/exercicios/projeto01/)
+- [Verificador de Idade](https://matheuspvbastos.github.io/projetos-web/javascript/cursoJS/exercicios/projeto02/)
+- [Gerador de Tabuada](https://matheuspvbastos.github.io/projetos-web/javascript/cursoJS/exercicios/projeto04/)
+- [Analizador de Números utilizando Arrays](https://matheuspvbastos.github.io/projetos-web/javascript/cursoJS/exercicios/projeto05/)
+- [Jogo do Número Secreto](https://matheuspvbastos.github.io/projetos-web/javascript/js-curso-2-aula1)
 
 ## <a name="tecnologias">⚙️ Tecnologias</a>
 
