@@ -1,0 +1,88 @@
+/* Media Queries */
+@media screen and (max-width: 500px) {
+    /*global*/
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    section h2{
+        font-size: 1.6em;
+    }
+
+    section {
+        padding: 2em 1.8em;
+    }
+
+    /* Sobre */
+    #sobre h1 {
+        font-size: 2.5em;
+    }
+
+    #sobre h2 {
+        font-size: 1.2em;
+    }
+
+    #sobre p {
+        padding: 0 1em;
+    }
+
+    .cv{
+        width: 90%;
+    }
+
+    /* Projetos */
+    .projeto-card {
+        width: 100%;
+        
+    }
+
+    .projeto-card h3 {
+        font-size: 1.3em;
+        color: var(--text-color);
+    }
+
+    /* Habilidades */
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 0.3em;
+    }
+
+    /* Contato */
+
+    .contato-email, .contato-social{
+        padding-bottom: 2em;
+        align-items: center;
+    }
+    
+    .contato-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .sociais{
+        margin: 1.1em;
+    }
+    .contato-social a,
+    .contato-email a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    
+    
+    .reservados{
+        font-size: 0.8em;
+        border-top: 1px solid rgba(255, 255, 255, 0.8);
+        padding-top: 2em;
+        margin-top: 2em;
+    }
+
+} 

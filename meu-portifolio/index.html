@@ -5,40 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus Bastos Portifolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <script src="https://kit.fontawesome.com/110a0f1ac2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    
     </header>
 
     <main>
         <section id="sobre">
-            <img src="img/1.png" alt="perfil" class="perfil">
+            
             <h1>Matheus Bastos</h1>
             <h2>Desenvolvedor Web</h2>
             <p>Sou um desenvolvedor web com expertise em HTML e CSS e crescente proficiência em JavaScript. Comecei minha jornada em desenvolvimento web há 2 anos e trabalho em uma escola como professor de informática desde agosto de 2022. Sou um indivíduo amigável que adora compartilhar conhecimento e colaborar com os outros.</p>
-            <a class="botao" href="img/cv-matheusbastos.pdf" download="cv-matheusbastos.pdf">Currículo</a>
+            
+            <img src="img/1.png" alt="perfil" class="foto-perfil">
+            <a class="cv" href="img/cv-matheusbastos.pdf" download="cv-matheusbastos.pdf"><i class="fa-solid fa-file"></i>Baixar CV</a>
         </section>
 
         <section id="habilidades">
             <h2>Linguagens e Ferramentas</h2>
             <div class="skills-container">
                     <div>
-                        <img class="skill" src="img/HTML.svg" alt="">
-                        <img class="skill" src="img/CSS.svg" alt="">
-                        <img class="skill" src="img/JavaScript.svg" alt="">
+                        <img class="skill" src="img/HTML.svg" alt="htmllogo">
+                        <img class="skill" src="img/CSS.svg" alt="csslogo">
+                        <img class="skill" src="img/JavaScript.svg" alt="jslogo">
                     </div>
                     <div>
-                        <img class="skill" src="img/Git.svg" alt="">
-                        <img class="skill" src="img/Github-Dark.svg" alt="">
-                        <img class="skill" src="img/VSCode-Dark.svg" alt="">
+                        <img class="skill" src="img/Git.svg" alt="gitlogo">
+                        <img class="skill" src="img/Github-Dark.svg" alt="githublogo">
+                        <img class="skill" src="img/VSCode-Dark.svg" alt="vscodelogo">
                     </div>
 
             </div>
@@ -48,30 +45,34 @@
             <h2>Meus Projetos</h2>
             <div class="projetos-flex">
                 <div class="projeto-card">
-                    <h3>Jogo do Número Secreto</h3>
                     <img src="img/jogo-numero-secreto.png" alt="Projeto 1">
+                    <h3>Jogo do Número Secreto</h3>
                     <p>Projeto feito com JavaScript utilizando o DOM (Document Object Model) para troca de textos e atributos de botões, utilização de funções e o reaproveitamento delas usando recursividade. Usado também uma biblioteca para comando de voz para acessibilidade.</p>
                     <div class="projeto-button">
-                        <a href="https://matheuspvbastos.github.io/projetos-web/javascript/js-curso-2-aula1/" target="_blank">Deploy</a>
-                        <a href="https://github.com/matheuspvbastos/projetos-web/tree/master/javascript/js-curso-2-aula1" target="_blank">Código</a>
+                        <a href="https://github.com/matheuspvbastos/projetos-web/tree/master/javascript/js-curso-2-aula1" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+                        <a href="https://matheuspvbastos.github.io/projetos-web/javascript/js-curso-2-aula1/" target="_blank"><i class="fa-solid fa-globe"></i>Acessar Site</a>
                     </div>
                 </div>
             </div>
         </section>
-
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <div class="contato-info">
-                <a class="botao" href="mailto:matheuspvbastos@gmail.com">E-mail</a>
-                <a class="botao" href="https://github.com/matheuspvbastos" target="_blank">GitHub</a>
-                <a class="botao" href="https://linkedin.com/in/matheuspvbastos" target="_blank">LinkedIn</a>
-            </div>
-        </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Matheus Bastos - Todos os direitos reservados</p>
-    </footer>
+    <div class="contato-info">
+            <div class="contato-email">
+                <h3>CONTATO</h3>
+                <a href="mailto:matheuspvbastos@gmail.com"><i class="fa-regular fa-envelope"></i> matheuspvbastos@gmail.com</a>
+            </div>
+            
+            <div class="contato-social">
+                <h3>SOCIAL</h3>
+                <a class="sociais" href="https://github.com/matheuspvbastos" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+                <a class="sociais" href="https://www.linkedin.com/in/matheusvbastos/" target="_blank"><i class="fa-brands fa-linkedin"></i>  Linkedin</a>
+                <a class="sociais" href="https://www.instagram.com/matbastos_/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </div>
+        <div>
+            <p class="reservados">&copy; 2025 Matheus Bastos. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
 </body>
 </html>
