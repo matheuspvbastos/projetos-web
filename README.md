@@ -27,6 +27,9 @@
 - [Gerador de Tabuada](https://matheuspvbastos.github.io/projetos-web/javascript/cursoJS/exercicios/projeto04/)
 - [Analizador de Números utilizando Arrays](https://matheuspvbastos.github.io/projetos-web/javascript/cursoJS/exercicios/projeto05/)
 - [Jogo do Número Secreto](https://matheuspvbastos.github.io/projetos-web/javascript/js-curso-2-aula1)
+- [Sorteador de Números](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/sorteador-numeros)
+- [Aluguel de Jogos](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/alugames)
+- [Carrinho de Compras](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/carrinho-compras)
 - [Portifolio](https://matheuspvbastos.github.io/projetos-web/meu-portifolio)
 
 ## <a name="tecnologias">⚙️ Tecnologias</a>
