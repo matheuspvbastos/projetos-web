@@ -30,6 +30,7 @@
 - [Sorteador de Números](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/sorteador-numeros)
 - [Aluguel de Jogos](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/alugames)
 - [Carrinho de Compras](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/carrinho-compras)
+- [Compre seu ingresso](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/ingresso)
 - [Portifolio](https://matheuspvbastos.github.io/projetos-web/meu-portifolio)
 
 ## <a name="tecnologias">⚙️ Tecnologias</a>
