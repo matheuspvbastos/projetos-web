@@ -19,10 +19,15 @@ header{
             li{
                 list-style-type: none;
             }
+            a:hover{
+                font-weight: 1000;
+                transition: font-weight 0.3s ease-in-out;
+            }
             a {
                 text-decoration: none;
                 @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 font-weight: 500;
+                transition: font-weight 0.2s ease;
                        }
         }
     }
@@ -51,8 +56,12 @@ header{
                 width: 100%;
             }
         }
-        .btn-main{
+        .btn-main:hover {
             background-color: #4E75FF;
+        }
+        .btn-main{
+            background-color: #4e74ff44;
+            transition: background-color 0.5s ease-in-out;
             color: white;
             padding: 15px;
             font-family: variaveis.$ft-textos;
