@@ -31,6 +31,7 @@
 - [Aluguel de Jogos](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/alugames)
 - [Carrinho de Compras](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/carrinho-compras)
 - [Compre seu ingresso](https://matheuspvbastos.github.io/projetos-web/javascript/praticando-logica/ingresso)
+- [Calmaria Spa](https://matheuspvbastos.github.io/projetos-web/sass-e-tailwind/calmaria-spa)
 - [Portifolio](https://matheuspvbastos.github.io/projetos-web/meu-portifolio)
 
 ## <a name="tecnologias">⚙️ Tecnologias</a>
