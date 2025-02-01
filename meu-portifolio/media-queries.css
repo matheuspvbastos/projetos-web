@@ -53,6 +53,12 @@
         gap: 0.3em;
     }
 
+    .skill {
+        height: 60px;
+        margin: 2px;
+        
+    }
+
     /* Contato */
 
     .contato-email, .contato-social{
