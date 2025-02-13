@@ -19,11 +19,36 @@ botaoAdicionar.addEventListener("click", (evento) =>{
     const nomeItem = document.createElement('p')
     nomeItem.innerText = inputItem.value
 
+    //Evento para riscar o item da lista se ele for clicado
+    inputCheckbox.addEventListener('click', function() {
+        if (inputCheckbox.checked){
+            nomeItem.style.textDecoration = 'line-through'
+        } else {
+            inputCheckbox.style.textDecoration = 'none'
+        }
+    } )
+
     containerItemDaLista.appendChild(inputCheckbox)
     containerItemDaLista.appendChild(nomeItem)
-
     itemDaLista.appendChild(containerItemDaLista)
+
+    //Mostrando a hora do item na lista de compras
+    const diaDaSemana = new Date().toLocaleDateString("pt-BR", {
+        weekday: "long" //metodo para o new Date para mostrar o dia da semana
+    });
+    const data = new Date().toLocaleDateString("pt-BR") //metodo para o new Date para mostrar o Local da data
+    const hora = new Date().toLocaleTimeString("pt-BR", {
+        minute: "numeric",
+        hour: "numeric"
+    })
+    const dataCompleta = `${diaDaSemana} (${data}) às ${hora}`
+    const itemData = document.createElement('p')
+    itemData.innerText = dataCompleta
+    itemData.classList.add("texto-data")
+    itemDaLista.appendChild(itemData)
     listaDeCompras.appendChild(itemDaLista)
+
+ 
     
 
 })
